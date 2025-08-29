@@ -31,5 +31,8 @@ It can be reused for portfolio, business cards, or personal websites.
 ---
 
 ## 🚀 Demo  
-🔗 **Live Demo:** 
+🔗 **Live Demo:**   https://social-profile-card-phi.vercel.app/
+
+
+🙂 Thanks for visiting this project. 
 
