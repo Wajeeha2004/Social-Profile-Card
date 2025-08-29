@@ -1,0 +1,235 @@
+
+ /* Reset default browser styles */
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+ /* Body styles */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 256px 16px;
+            gap: 10px;
+            background: #141414;
+            font-family: 'Inter', sans-serif;
+            min-height: 800px; 
+            height: 800px; 
+            
+        }
+
+/* Profile card container */     
+        .profile-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 32px 24px;
+            gap: 8px;
+            width: 343px;
+            height: 573px;
+            background: #1F1F1F;
+            border-radius: 12px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+/* Avatar wrapper */
+        .avatar-container {
+            position: relative;
+            width: 83px;
+            height: 83px;
+        }
+
+/* Background behind avatar */      
+      .avatar-background {
+            position: absolute;
+            width: 83px;
+            height: 83px;
+            background: #D9D9D9;
+            border-radius: 50%;
+        }
+
+/* Profile picture */        
+        .avatar {
+            position: absolute;
+            width: 83px;
+            height: 83px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+/* Info section (name + location) */
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            text-align: center;
+        }
+
+/* Name styling */
+        .name {
+            width: 182px;
+            height: 29px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+/* Location styling */
+        .location {
+            width: 168px;
+            height: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            color: #C5F82A;
+            flex: none;
+            order: 2;
+            flex-grow: 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+/* Bio container */
+        .bio {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 0px;
+            gap: 10px;
+            width: 256px;
+            height: 49px;
+            flex: none;
+            order: 3;
+            flex-grow: 0;
+        }
+        
+/* Bio text */
+        .bio-text {
+            width: 256px;
+            height: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+ 
+/* Links list */
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            padding: 0px;
+            gap: 16px;
+            width: 295px;
+            height: 301px;
+            flex: none;
+            order: 4;
+            align-self: stretch;
+            flex-grow: 0;
+        }
+
+/* Each link item */        
+        .link-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0px;
+            gap: 10px;
+            width: 295px;
+            height: 47px;
+            background: #333333;
+            border-radius: 8px;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+            list-style-type: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+/* Hover effect */
+        .link-item:hover {
+            background: #C5F82A;
+        }
+        
+        .link-item:hover .link {
+            color: #333333;
+        }
+
+/* Active (clicked) state */        
+        .link-item:active {
+            background: #C5F82A;
+            transform: translateY(1px);
+        }
+        
+        .link-item:active .link {
+            color: #1F1F1F;
+        }
+        /* State=Hover */
+
+
+
+/* Link text styling */
+        .link {
+            width: auto;
+            height: 17px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            text-decoration: none;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            transition: color 0.2s ease;
+            white-space: nowrap;
+            text-align: center; 
+        }
+
+        
+        /* Media query for desktop screens */
+
+        @media (min-width: 768px) {
+            .profile-card {
+                width: 375px;
+               
+            }
+             .links {
+                padding: 0px 16px;
+                width: 327px;
+                height: 299px;
+               
+            }
+        }
+
+        
