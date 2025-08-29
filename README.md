@@ -25,9 +25,8 @@ It can be reused for portfolio, business cards, or personal websites.
 ---
 
 ## 📸 Screenshots  
-![Screenshot 1](assets/screenshots/mobile.png)  
-![Screenshot 2](assets/screenshots/active.png)  
-![Screenshot 2](assets/screenshots/Laptop.png) 
+![Screenshot 1](assets/screenshots/mobile.png) ![Screenshot 2](assets/screenshots/active.png)  
+![Screenshot 2](assets/screenshots/laptop.png) 
 
 ---
 
