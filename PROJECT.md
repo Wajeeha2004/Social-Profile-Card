@@ -14,5 +14,4 @@ A simple and responsive Social Profile Card made with HTML and CSS. It shows a p
 - https://github.com/Wajeeha2004/Social-Profile-Card
 
 ## Live Demo
-- Vercel: 
-- Netlify:  
+- Vercel:  https://social-profile-card-phi.vercel.app/  
