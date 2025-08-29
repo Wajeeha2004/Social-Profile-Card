@@ -10,10 +10,9 @@ A simple and responsive Social Profile Card made with HTML and CSS. It shows a p
 - Social media links (GitHub, LinkedIn, Twitter etc.)  
 - Clean and minimal UI  
 
-## GitHub Repository
-
+## GitHub Repository   
+- https://github.com/Wajeeha2004/Social-Profile-Card
 
 ## Live Demo
-
 - Vercel: 
 - Netlify:  
