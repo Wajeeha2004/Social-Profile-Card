@@ -1,6 +1,3 @@
-
-# Social Profile Card
-
 ## Overview:
 A simple and responsive Social Profile Card made with HTML and CSS. It shows a profile picture, name, bio, and social media links in a clean card layout.
 
